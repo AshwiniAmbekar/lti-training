@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Currency Converter</title>
+</head>
+<body>
+<div>
+<form method="post" action="currency.lti">
+From: 
+<select name="from">
+<option value="--select--" >--select--</option>
+<option value="INR" >INR</option>
+<option value="USD"  >USD</option>
+</select>
+To: 
+<select name="to">
+<option value="--select--" >--select--</option>
+<option value="INR" >INR</option>
+<option value="USD" disabled>USD</option>
+</select>
+
+Amount: <input type="text"  name="amount"/><br/>
+<button type="submit">Convert</button>
+
+</form>
+</div>
+</body>
+</html>
